@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">SAMSUNG</div>
+        <div class="menu-toggle">&#9776;</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <video autoplay muted loop id="video-bg">
+                <source src="static/Galaxy S21 _ S21+ 5G_ 8K Video Snap (BTS ver.) _ Samsung.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+        <section id="products" class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <div class="video">
+                        <img src="https://images.moneycontrol.com/static-mcnews/2021/02/Samsung-Galaxy-S21-Ultra-2.png">
+                    </div>
+                    <div class="details">
+                        <h3>Galaxy S21 Ultra</h3>
+                        <p>The ultimate smartphone experience.</p>
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="details">
+                        <h3>QLED 4K UHD TV</h3>
+                        <p>Transform your viewing experience.</p>
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                    <div class="video">
+                        <img src="https://images.samsung.com/is/image/samsung/p6pim/in/qa98q80cakxxl/gallery/in-qled-98q80c-qa98q80cakxxl-536906370?$720_576_PNG$">
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="video">
+                        <img src="https://img.global.news.samsung.com/global/wp-content/uploads/2021/01/Galaxy-Buds-Pro-PR_main1.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Galaxy Buds Pro</h3>
+                        <p>Immersive sound like never before.</p>
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="details">
+                        <h3>Z FLIP</h3>
+                        <p>Transform your viewing experience.</p>
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                    <div class="video">
+                        <img src="https://pbs.twimg.com/media/EWG9SCoUYAEVKK7.jpg">
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="video">
+                        <img src="https://img.global.news.samsung.com/uk/wp-content/uploads/2020/06/Odyssey-G9_2.jpg">
+                    </div>
+                    <div class="details">
+                        <h3>Samsung Odyssey G9 Monitor</h3>
+                        <p>Immersive gaming experience.</p>
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="details">
+                        <h3>Galaxy Tab S7+</h3>
+                        <p>The ultimate productivity tablet.</p>
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                    <div class="video">
+                        <img src="https://www.reliancedigital.in/wp-content/uploads/2020/08/Samsung_Tab_S7_cover.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service">
+                    <h3>Repair Center</h3>
+                    <p>Get expert repairs for your Samsung devices.</p>
+                </div>
+                <div class="service">
+                    <h3>Customer Support</h3>
+                    <p>24/7 assistance for all your queries.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>Samsung, a South Korean multinational conglomerate, is renowned for its innovation in technology and electronics. Founded in 1938, Samsung has grown to become a global leader in the production of smartphones, televisions, and home appliances. The company is committed to delivering cutting-edge technology, including advancements in semiconductors and telecommunications. Samsung's mission emphasizes quality and customer satisfaction, driving its continuous development of high-quality products and services. With a significant presence in numerous industries, Samsung remains a dominant force in the global market.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions? Reach out to us.</p>
+            <a href="#" class="btn">Get in Touch</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', () => {
+            document.querySelector('header nav ul').classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
